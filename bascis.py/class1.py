@@ -216,11 +216,11 @@ sum = 0
 temp = num
 while temp>0:
     digit = temp%10
-    cube = digit**3
-    add = cube + sum
+    sum+= digit**3
+    
     temp//=10
     if num == sum:
-        print("its a Aarmstrong number", sum)
+        print("its a Aarmstrong number", num)
         break
 else:
-     print("its a Armstrong number", sum)  # its not complete this code
+     print("its not Armstrong number", num)  # its not complete this code
