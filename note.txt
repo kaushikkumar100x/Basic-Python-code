@@ -1,2 +1,4 @@
 (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "c:\Users\Kaushik Kumar\Desktop\python class\.venv\Scripts\Activate.ps1")
 kaushik kumar prajapati
+KSG BRAND
+ram ram ji
