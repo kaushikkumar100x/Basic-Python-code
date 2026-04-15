@@ -211,16 +211,74 @@
 # Armstrong number
 
 
-num = int(input("Enter the numbers :-"))
-sum = 0
-temp = num
-while temp>0:
-    digit = temp%10
-    sum+= digit**3
+# num = int(input("Enter the numbers :-"))
+# sum = 0
+# temp = num
+# while temp>0:
+#     digit = temp%10
+#     sum+= digit**3
     
-    temp//=10
-    if num == sum:
-        print("its a Aarmstrong number", num)
-        break
-else:
-     print("its not Armstrong number", num)  # its not complete this code
+#     temp//=10
+#     if num == sum:
+#         print("its a Aarmstrong number", num)
+#         break
+# else: 
+#      print("its not Armstrong number", num)  # its not complete this code
+
+# natural number
+
+# num = float(input("Enter the number:-"))
+# if num<0:
+#     print("please enter  positive number")
+# else:
+#     sum = 0
+#     while num>0:
+#         sum += num 
+#         num -= 1
+#     print("the sum of natural number is :-", sum)
+     
+     
+     # display power of 2 using anonymous function// anonymous function is also called lambda function
+     
+# nterms = int (input("Enter the number of terms:-"))
+# result = list(map(lambda x :  2 ** x, range(nterms +1)))
+# # print(result)
+# for i in range(nterms +1):
+#     print("the value of 2 raised to power  ", i,"is" , result[i])
+    
+     
+        # divisble by another number
+        
+# print("Enter the number and find this number is divisible by 13 or not")# first method
+
+# for i in range(1,100):
+#     if i % 13 == 0:
+#         print(i)
+     
+     
+     
+     #with the help of lambda and filter function
+     
+# l = [39,48,26,98,33,67,87]
+# result = list(filter(lambda x : x%13 == 0 , l))
+# print(result)
+     
+     
+     
+     # conver decimal to binary,octal and hexadecimal
+     
+# num = int(input("Enter the number:-"))
+# print("The conversion of decimal number",num,"is:")
+# print(bin(num), "in binary.")
+# print(oct(num), "in octal.")
+# print(hex(num), "in hexadecimal.")
+     
+     
+
+    #  ASCII value of a character
+    
+    
+# char = input("Enter the character:-")
+# print("The ASCII value of '" + char + "' is", ord(char))
+
+
